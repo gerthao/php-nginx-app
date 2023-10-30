@@ -1,0 +1,23 @@
+{
+    "name": "gthao/app",
+    "type": "project",
+    "require": {
+        "php": "^8.2",
+        "monolog/monolog": "^3.4",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gthao\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ger Thao",
+            "email": "g.thao19@gmail.com"
+        }
+    ]
+}
